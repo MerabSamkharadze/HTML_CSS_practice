@@ -9,6 +9,14 @@ p {
   margin-left: 20px;
   font-weight: bolder;
 }
+.buttons_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 15px;
+  box-sizing: border-box;
+}
 
 /* Uber button  */
 
@@ -92,4 +100,40 @@ p {
 .download:hover {
   color: white;
   background-color: rgb(74, 73, 73);
+}
+
+/* linkedin buttons  */
+
+.linkedin_apply {
+  border: none;
+  border-radius: 23px;
+  color: whitesmoke;
+  background-color: rgb(19, 19, 219);
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.linkedin_apply:hover {
+  background-color: rgb(23, 23, 172);
+}
+
+.linkedin_save {
+  border: 1px solid rgb(19, 19, 219);
+  color: rgb(19, 19, 219);
+  border-radius: 20px;
+  background-color: whitesmoke;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.linkedin_save:hover {
+  padding: 9px 19px;
+  border-width: 2px;
+  background-color: rgba(8, 8, 238, 0.18);
 }
