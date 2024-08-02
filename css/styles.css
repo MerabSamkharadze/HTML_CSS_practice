@@ -16,7 +16,7 @@ p {
   border: none;
   background-color: black;
   color: #fff;
-  padding: 10px 15px;
+  padding: 10px 20px;
   cursor: pointer;
   transition: opacity 0.2s;
 }
@@ -37,4 +37,21 @@ p {
 
 .amazon:hover {
   background-color: rgb(242, 208, 17);
+}
+
+/* GitHub button */
+
+.github {
+  color: #fff;
+  background-color: green;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.github:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.189);
 }
