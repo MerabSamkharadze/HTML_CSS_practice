@@ -73,3 +73,23 @@ p {
 .bootstrap:hover {
   background-color: rgb(98, 13, 177);
 }
+
+/* download button */
+
+.download {
+  border: 1px solid rgb(74, 73, 73);
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: gray;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  transition: color 0.15s;
+}
+
+.download:hover {
+  color: white;
+  background-color: rgb(74, 73, 73);
+}
