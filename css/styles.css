@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+.uber {
+  border: none;
+  background-color: black;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.uber:hover {
+  opacity: 0.8;
+}
