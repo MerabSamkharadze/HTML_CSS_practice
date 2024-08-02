@@ -9,6 +9,9 @@ p {
   margin-left: 20px;
   font-weight: bolder;
 }
+
+/* Uber button  */
+
 .uber {
   border: none;
   background-color: black;
@@ -19,4 +22,19 @@ p {
 }
 .uber:hover {
   opacity: 0.8;
+}
+
+/* Amazon button */
+
+.amazon {
+  border: none;
+  background-color: rgb(244, 216, 57);
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.15s;
+}
+
+.amazon:hover {
+  background-color: rgb(242, 208, 17);
 }
