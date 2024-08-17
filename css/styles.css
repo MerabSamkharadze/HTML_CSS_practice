@@ -46,7 +46,10 @@ p {
   border-radius: 20px;
   transition: background-color 0.15s;
 }
-
+.amazon:active {
+  transform: translateY(2px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
 .amazon:hover {
   background-color: rgb(242, 208, 17);
 }
