@@ -154,6 +154,9 @@ p {
   cursor: pointer;
   box-sizing: border-box;
 }
+.linkedin_save:active {
+  transform: translateY(2px);
+}
 
 .linkedin_save:hover {
   padding: 9px 19px;
