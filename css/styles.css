@@ -153,6 +153,7 @@ p {
   font-weight: 600;
   cursor: pointer;
   box-sizing: border-box;
+  transition: all 0.3s;
 }
 .linkedin_save:active {
   transform: translateY(2px);
