@@ -168,3 +168,7 @@ p {
   text-decoration: none;
   color: rgb(49, 6, 159);
 }
+
+a {
+  color: inherit;
+}
