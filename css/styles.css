@@ -164,7 +164,7 @@ p {
   border-width: 1.5px;
   background-color: rgba(8, 8, 238, 0.18);
 }
-a {
+* {
   text-decoration: none;
   color: rgb(49, 6, 159);
 }
